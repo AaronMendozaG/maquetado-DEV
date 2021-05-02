@@ -177,6 +177,8 @@ a.a-block:hover {
 }
 
 .middle-section .content-post {
+  -webkit-box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+          box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
   background-color: white;
 }
 
@@ -222,12 +224,19 @@ a.a-block:hover {
 }
 
 .middle-section .card-center-principal {
+  -webkit-box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+          box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
   border-radius: 5px;
   background-color: white;
 }
 
 .middle-section .card-center-principal h3 {
   margin-bottom: 7px;
+}
+
+.middle-section .card-center-principal .content-post {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
 }
 
 .middle-section .card-center-principal div.img-post-center img {
