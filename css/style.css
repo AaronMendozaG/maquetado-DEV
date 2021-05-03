@@ -280,6 +280,111 @@ a.a-block:hover {
   }
 }
 
+article.post-article {
+  background-color: white;
+}
+
+article.post-article p, article.post-article h4 {
+  font-size: 1.125rem;
+  color: #08090a;
+}
+
+article.post-article h4 {
+  font-weight: bold;
+}
+
+article.post-article h2 {
+  font-size: 1.70em;
+  font-weight: bold;
+  color: #08090a;
+}
+
+article.post-article ul {
+  padding-left: 30px;
+  list-style: disc;
+  font-size: 1.125rem;
+}
+
+article.post-article img {
+  width: 100%;
+}
+
+article.post-article .img-post-center img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+article.post-article h1 {
+  font-weight: bold;
+  font-size: 1.9rem;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+article.post-article nav.post-tags a {
+  font-size: 0.875rem;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin-left: 5px;
+  color: white;
+  background-color: #562765;
+}
+
+article.post-article nav.post-tags a:nth-of-type(2) {
+  background-color: #57d700;
+}
+
+article.post-article nav.post-tags a:nth-of-type(3) {
+  color: black;
+  background-color: #f7df1e;
+}
+
+article.post-article nav.post-tags a:nth-of-type(4) {
+  background-color: #2a2566;
+}
+
+article.post-article div.user-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article.post-article div.user-div h4 {
+  font-size: 1rem;
+}
+
+article.post-article div.user-div p {
+  width: 80%;
+  font-size: 0.875rem;
+}
+
+article.post-article div.user-div p a {
+  font-size: 0.875rem;
+  color: #0084ff;
+}
+
+article.post-article div.user-div .avatar-post {
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+}
+
+article.post-article div.user-div .avatar-post img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+article.post-article .comment-large {
+  padding-left: 15px;
+  border-left: 3px solid #a8a6a6;
+}
+
+article.post-article .comment-large a {
+  font-size: 0.875rem;
+  color: #0084ff;
+}
+
 footer {
   background-color: #d2d6db;
 }
