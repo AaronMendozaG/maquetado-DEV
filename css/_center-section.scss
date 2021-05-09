@@ -1,3 +1,26 @@
+nav{
+    .div-icons-nav{
+        width: 100%;
+    }
+    .dev-ico{
+        svg{
+            path{
+                fill: white;
+            }
+        }
+    }
+    div.avatar-img{
+        border-radius: 100%;
+        height: 30px;
+        width: 30px;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+        }
+    }
+    
+}
 
 .middle-section{
     .posts-menu{

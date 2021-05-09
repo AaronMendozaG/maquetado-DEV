@@ -12,45 +12,56 @@
 </head>
 
 <body>
-  <div class="container-fluid  bg-light ">
-    <nav class=" container navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+  <nav class="navbar navbar-light bg-light justify-content-start container-fluid fixed-top ">
+    <div class="container ">
+
+      <button class="d-sm-none navbar-toggler mr-2 " type="button" data-toggle="collapse"
+        data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <a class="navbar-brand  rounded-lg m-md-0 mr-sm-auto " href="./index.html">
+        <img src="./assets/icons/dev-brands.svg" width="30" height="30" alt="">
+      </a>
+      <form class="form-inline d-none d-md-block mr-lg-auto ml-2">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search..." aria-label="Search">
+      </form>
+      <div class="ladoDerechoNav d-flex justify-content-end w-48 ml-auto ">
+        <div class="d-flex">
+          <input class="btn btn-primary d-none d-md-block" type="submit" value="Write a post">
+
+          <a class="navbar-brand d-block d-md-none" href="#">
+            <img src="/assets/icons/search-solid.svg" width="24" height="24" alt="">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="/assets/icons/comment-regular.svg" class="ml-lg-3 ml-md-3" width="24" height="24" alt="">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="/assets/icons/bell-regular.svg" width="24" height="24" alt="">
+          </a>
+
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="/assets/icons/kodemia.svg" class="rounded-circle"
+              width="30" height="30" alt="Perfil"></a>
+
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#"> <strong>Kodemia</strong><br> @kodemia</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Dashboard</a>
+            <a class="dropdown-item" href="#">Write a Post</a>
+            <a class="dropdown-item" href="#">Reading List</a>
+            <a class="dropdown-item" href="#">Settingss</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sign Out</a>
+          </div>
+        </div>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
+
   <div class="container-fluid">
     <div class="row">
       <div class="container">
@@ -105,7 +116,7 @@
 
             </div>
           </aside>
-          <main class="col-12 col-md-11 col-lg-7 p-0">
+          <main class="col-12 col-md-11 col-lg-7 p-0 mt-md-5">
             <article class="mt-md-3 post-article">
               <div class="img-post-center">
                 <img
@@ -449,7 +460,7 @@
             </section>
 
           </main>
-          <aside class="col-12 col-lg-4 p-0 pl-lg-3 ">
+          <aside class="col-12 col-lg-4 p-0 pl-lg-3 mt-5 ">
             <div class="d-md-none d-lg-block aside-sticky">
               <section class=" mt-3 info">
                 <div class="header-color">
